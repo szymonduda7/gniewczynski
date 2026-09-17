@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gniewczyński | Ciesielstwo i dekarstwo, Makowice</title>
+<meta name="description" content="Sylwester Gniewczyński, usługi ciesielsko-dekarskie w Makowicach, woj. opolskie. Więźby dachowe, pokrycia dachówką, budowa domów w stanie surowym. 5,0 na Google.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%23201d18'/%3E%3Cpath d='M15 72 L50 24 L85 72 Z' fill='none' stroke='%23c96435' stroke-width='6'/%3E%3Cpath d='M50 24 L50 72' fill='none' stroke='%23c96435' stroke-width='4'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+<link rel="stylesheet" href="styles.css">
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          ink: '#211c17',
+          'ink-soft': '#52493d',
+          linen: '#ede6d8',
+          'linen-raised': '#f7f2e6',
+          graphite: '#201d18',
+          'graphite-raised': '#2b2720',
+          clay: '#b1502c',
+          'clay-deep': '#7e3a1f',
+          'clay-bright': '#c96435',
+          slate: '#6e7a76',
+          'slate-light': '#a9b3ac',
+        },
+        fontFamily: {
+          display: ['"Oswald"', 'sans-serif'],
+          serif: ['"Source Serif 4"', 'Georgia', 'serif'],
+        },
+      },
+    },
+  };
+</script>
+</head>
+<body class="bg-linen text-ink font-serif">
+
+<!-- ============ HEADER ============ -->
+<header id="site-header" class="site-header fixed top-0 left-0 right-0 z-50">
+  <div class="max-w-7xl mx-auto px-5 md:px-8 h-16 md:h-20 flex items-center justify-between">
+    <a href="index.html" class="flex items-baseline gap-2.5">
+      <span class="brand-mark font-display font-bold uppercase text-xl md:text-2xl tracking-tight leading-none">
+        Gniew<span class="accent">czyński</span>
+      </span>
+      <span class="brand-tagline font-label text-[0.65rem] uppercase hidden sm:inline">Ciesielstwo i dekarstwo</span>
+    </a>
+    <nav class="hidden md:flex items-center gap-8 font-label text-sm uppercase">
+      <a href="uslugi.html" class="nav-link">Usługi</a>
+      <a href="#realizacje" class="nav-link">Realizacje</a>
+      <a href="#opinie" class="nav-link">Opinie</a>
+      <a href="#kontakt" class="nav-link">Kontakt</a>
+    </nav>
+    <a href="tel:603532630" class="btn btn-primary rounded-full px-5 py-2.5 text-sm">
+      <i data-lucide="phone" class="w-4 h-4"></i>
+      603 532 630
+    </a>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="relative min-h-[100svh] flex items-end overflow-hidden bg-graphite">
+  <img src="images/2.webp" alt="Konstrukcja więźby dachowej i krycie dachówką na budowanym domu w Makowicach" class="absolute inset-0 w-full h-full object-cover">
+  <div class="absolute inset-0 hero-scrim"></div>
+  <div class="grain"></div>
+
+  <div class="relative max-w-7xl mx-auto w-full px-5 md:px-8 pb-24 md:pb-36 pt-32">
+    <div class="max-w-3xl">
+      <h1 class="font-display font-bold uppercase text-linen-raised leading-[0.98] tracking-tight text-[2.6rem] sm:text-6xl md:text-7xl">
+        Więźba i dach,<br><span class="text-clay-bright">jedna solidna robota.</span>
+      </h1>
+      <p class="mt-6 text-lg md:text-xl text-slate-light max-w-xl leading-relaxed">
+        Konstrukcje więźb dachowych, pokrycia dachówką i budowa domów w Makowicach i okolicy. Cieśla i dekarz w jednej osobie, od pierwszej krokwi po ostatnią dachówkę.
+      </p>
+
+      <div class="mt-9 flex flex-wrap gap-4">
+        <a href="tel:603532630" class="btn btn-primary rounded-full px-7 py-4 text-base">
+          <i data-lucide="phone-call" class="w-5 h-5"></i>
+          Zadzwoń: 603 532 630
+        </a>
+        <a href="#realizacje" class="btn btn-outline rounded-full px-7 py-4 text-base">
+          Zobacz realizacje
+          <i data-lucide="arrow-down-right" class="w-5 h-5"></i>
+        </a>
+      </div>
+
+      <div class="mt-10 flex flex-wrap gap-3 font-label text-sm">
+        <div class="stat-pill rounded-full px-4 py-2 flex items-center gap-2 text-linen-raised">
+          <span class="stars">★★★★★</span> 5,0 <span class="text-slate-light">(5 opinii)</span>
+        </div>
+        <div class="stat-pill rounded-full px-4 py-2 flex items-center gap-2 text-linen-raised">
+          <i data-lucide="clock" class="w-4 h-4 text-clay-bright"></i> Pon-sob 7:00-16:00
+        </div>
+        <div class="stat-pill rounded-full px-4 py-2 flex items-center gap-2 text-linen-raised">
+          <i data-lucide="map-pin" class="w-4 h-4 text-clay-bright"></i> Makowice i okolice
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <svg class="truss-divider absolute -bottom-px left-0 text-linen" viewBox="0 0 1200 60" preserveAspectRatio="none">
+    <path fill="currentColor" d="M0,60 L0,40 L150,4 L300,40 L450,10 L600,40 L750,6 L900,40 L1050,14 L1200,40 L1200,60 Z"/>
+    <g stroke="#c96435" stroke-width="2" opacity="0.35" fill="none">
+      <path d="M150,4 L150,40"/>
+      <path d="M450,10 L450,40"/>
+      <path d="M750,6 L750,40"/>
+      <path d="M1050,14 L1050,40"/>
+    </g>
+  </svg>
+</section>
+
+<!-- ============ WHY US ============ -->
+<section class="relative py-20 md:py-28 px-5 md:px-8 bg-linen">
+  <div class="max-w-7xl mx-auto">
+    <div class="max-w-2xl mb-14">
+      <div class="rule-bar mb-5"></div>
+      <h2 class="font-display font-bold uppercase text-4xl md:text-5xl leading-[1.02] tracking-tight">
+        Dlaczego mieszkańcy Makowic <span class="text-clay">wybierają Gniewczyńskiego</span>
+      </h2>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="surface-card rounded-2xl p-8 reveal">
+        <div class="w-12 h-12 rounded-full bg-clay/10 flex items-center justify-center mb-6">
+          <i data-lucide="hammer" class="w-6 h-6 text-clay-deep"></i>
+        </div>
+        <h3 class="font-display font-semibold uppercase text-xl tracking-tight mb-3">Cieśla i dekarz w jednej firmie</h3>
+        <p class="text-ink-soft leading-relaxed">Nie musisz szukać osobno ekipy do więźby i osobno do pokrycia. Stawiamy konstrukcję dachu i kryjemy ją, jedna ekipa, jeden termin.</p>
+      </div>
+      <div class="surface-card rounded-2xl p-8 reveal">
+        <div class="w-12 h-12 rounded-full bg-clay/10 flex items-center justify-center mb-6">
+          <i data-lucide="calendar-check" class="w-6 h-6 text-clay-deep"></i>
+        </div>
+        <h3 class="font-display font-semibold uppercase text-xl tracking-tight mb-3">Termin, którego dotrzymujemy</h3>
+        <p class="text-ink-soft leading-relaxed">Ustalamy zakres i termin przed rozpoczęciem prac i się go trzymamy, bez przestojów i niedomówień w trakcie budowy.</p>
+      </div>
+      <div class="surface-card rounded-2xl p-8 reveal">
+        <div class="w-12 h-12 rounded-full bg-clay/10 flex items-center justify-center mb-6">
+          <i data-lucide="badge-check" class="w-6 h-6 text-clay-deep"></i>
+        </div>
+        <h3 class="font-display font-semibold uppercase text-xl tracking-tight mb-3">Dbałość o każdy detal</h3>
+        <p class="text-ink-soft leading-relaxed">Od konstrukcji więźby po ostatni gąsior, porządek na budowie i staranność w wykonaniu widać na każdym etapie.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SERVICES ============ -->
+<section id="uslugi" class="relative pt-20 pb-28 md:pt-28 md:pb-36 px-5 md:px-8 bg-graphite overflow-hidden">
+  <div class="truss-field"></div>
+  <div class="grain"></div>
+  <div class="relative max-w-7xl mx-auto">
+    <div class="flex flex-wrap items-end justify-between gap-6 mb-14">
+      <div class="max-w-2xl">
+        <div class="rule-bar mb-5"></div>
+        <h2 class="font-display font-bold uppercase text-4xl md:text-5xl leading-[1.02] tracking-tight text-linen-raised">
+          Usługi <span class="text-clay-bright">ciesielsko-dekarskie</span>
+        </h2>
+      </div>
+      <a href="uslugi.html" class="btn btn-outline rounded-full px-6 py-3.5 text-sm uppercase shrink-0">
+        Wszystkie usługi
+        <i data-lucide="arrow-right" class="w-4 h-4"></i>
+      </a>
+    </div>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+      <div class="dark-card rounded-2xl p-7 reveal">
+        <i data-lucide="triangle" class="w-7 h-7 text-clay-bright mb-5"></i>
+        <h3 class="font-display font-semibold uppercase text-xl tracking-tight text-linen-raised mb-2">Więźby dachowe</h3>
+        <p class="text-slate-light text-sm leading-relaxed">Stawiamy konstrukcje dachowe dla domów jednorodzinnych i budynków gospodarczych, gotowe pod pokrycie.</p>
+      </div>
+      <div class="dark-card rounded-2xl p-7 reveal">
+        <i data-lucide="layers" class="w-7 h-7 text-clay-bright mb-5"></i>
+        <h3 class="font-display font-semibold uppercase text-xl tracking-tight text-linen-raised mb-2">Pokrycia dachowe</h3>
+        <p class="text-slate-light text-sm leading-relaxed">Krycie dachówką ceramiczną i betonową wraz z łaceniem, membraną i wentylacją połaci.</p>
+      </div>
+      <div class="dark-card rounded-2xl p-7 reveal">
+        <i data-lucide="building-2" class="w-7 h-7 text-clay-bright mb-5"></i>
+        <h3 class="font-display font-semibold uppercase text-xl tracking-tight text-linen-raised mb-2">Budowa domów w stanie surowym</h3>
+        <p class="text-slate-light text-sm leading-relaxed">Murowanie ścian, stropy i konstrukcja dachu, od fundamentów po gotową więźbę.</p>
+      </div>
+      <div class="dark-card rounded-2xl p-7 reveal">
+        <i data-lucide="square-stack" class="w-7 h-7 text-clay-bright mb-5"></i>
+        <h3 class="font-display font-semibold uppercase text-xl tracking-tight text-linen-raised mb-2">Obróbki blacharskie i kominy</h3>
+        <p class="text-slate-light text-sm leading-relaxed">Obróbki kominów, okien połaciowych i pasów nadrynnowych dopasowane do każdego trudnego detalu dachu.</p>
+      </div>
+      <div class="dark-card rounded-2xl p-7 reveal">
+        <i data-lucide="droplets" class="w-7 h-7 text-clay-bright mb-5"></i>
+        <h3 class="font-display font-semibold uppercase text-xl tracking-tight text-linen-raised mb-2">Rynny i odwodnienie</h3>
+        <p class="text-slate-light text-sm leading-relaxed">Montaż i wymiana rynien dopasowanych do wielkości połaci, żeby woda spływała tam, gdzie powinna.</p>
+      </div>
+      <div class="dark-card rounded-2xl p-7 reveal">
+        <i data-lucide="wrench" class="w-7 h-7 text-clay-bright mb-5"></i>
+        <h3 class="font-display font-semibold uppercase text-xl tracking-tight text-linen-raised mb-2">Naprawa dachów</h3>
+        <p class="text-slate-light text-sm leading-relaxed">Usuwamy przecieki i wymieniamy uszkodzone łaty oraz dachówki, także w starszych pokryciach.</p>
+      </div>
+    </div>
+  </div>
+
+  <svg class="truss-divider absolute -bottom-px left-0 text-linen" viewBox="0 0 1200 60" preserveAspectRatio="none">
+    <path fill="currentColor" d="M0,60 L0,40 L150,4 L300,40 L450,10 L600,40 L750,6 L900,40 L1050,14 L1200,40 L1200,60 Z"/>
+  </svg>
+</section>
+
+<!-- ============ GALLERY ============ -->
+<section id="realizacje" class="py-20 md:py-28 px-5 md:px-8 bg-linen">
+  <div class="max-w-7xl mx-auto">
+    <div class="max-w-2xl mb-14">
+      <div class="rule-bar mb-5"></div>
+      <h2 class="font-display font-bold uppercase text-4xl md:text-5xl leading-[1.02] tracking-tight">
+        Realizacje <span class="text-clay">z Makowic i okolicy</span>
+      </h2>
+    </div>
+
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4 auto-rows-[180px] md:auto-rows-[240px]">
+      <button class="gallery-item rounded-xl row-span-2" data-full="images/2.webp" data-caption="Konstrukcja lukarn i więźby dachowej">
+        <img src="images/2.webp" alt="Konstrukcja lukarn i więźby dachowej" class="w-full h-full object-cover rounded-xl">
+        <span class="gallery-caption absolute bottom-3 left-3 right-3 text-linen-raised text-xs font-label uppercase">Lukarny i więźba</span>
+      </button>
+      <button class="gallery-item rounded-xl" data-full="images/1.webp" data-caption="Krycie dachówką i wykończenie lukarn">
+        <img src="images/1.webp" alt="Krycie dachówką i wykończenie lukarn" class="w-full h-full object-cover rounded-xl">
+        <span class="gallery-caption absolute bottom-3 left-3 right-3 text-linen-raised text-xs font-label uppercase">Krycie dachówką</span>
+      </button>
+      <button class="gallery-item rounded-xl" data-full="images/3.webp" data-caption="Gotowe pokrycie dachówką ceramiczną">
+        <img src="images/3.webp" alt="Gotowe pokrycie dachówką ceramiczną" class="w-full h-full object-cover rounded-xl">
+        <span class="gallery-caption absolute bottom-3 left-3 right-3 text-linen-raised text-xs font-label uppercase">Pokrycie ceramiczne</span>
+      </button>
+      <button class="gallery-item rounded-xl row-span-2" data-full="images/4.webp" data-caption="Montaż więźby dachowej na murach">
+        <img src="images/4.webp" alt="Montaż więźby dachowej na murach" class="w-full h-full object-cover rounded-xl">
+        <span class="gallery-caption absolute bottom-3 left-3 right-3 text-linen-raised text-xs font-label uppercase">Montaż więźby</span>
+      </button>
+      <button class="gallery-item rounded-xl" data-full="images/5.webp" data-caption="Podnoszenie więźby budynku gospodarczego">
+        <img src="images/5.webp" alt="Podnoszenie więźby budynku gospodarczego" class="w-full h-full object-cover rounded-xl">
+        <span class="gallery-caption absolute bottom-3 left-3 right-3 text-linen-raised text-xs font-label uppercase">Podnoszenie więźby</span>
+      </button>
+      <button class="gallery-item rounded-xl" data-full="images/7.webp" data-caption="Budynek gospodarczy z gotowym pokryciem dachowym">
+        <img src="images/7.webp" alt="Budynek gospodarczy z gotowym pokryciem dachowym" class="w-full h-full object-cover rounded-xl">
+        <span class="gallery-caption absolute bottom-3 left-3 right-3 text-linen-raised text-xs font-label uppercase">Budynek gospodarczy</span>
+      </button>
+      <button class="gallery-item rounded-xl" data-full="images/6.webp" data-caption="Dom w budowie, dach gotowy do wykończenia elewacji">
+        <img src="images/6.webp" alt="Dom w budowie, dach gotowy do wykończenia elewacji" class="w-full h-full object-cover rounded-xl">
+        <span class="gallery-caption absolute bottom-3 left-3 right-3 text-linen-raised text-xs font-label uppercase">Dach gotowy</span>
+      </button>
+      <button class="gallery-item rounded-xl" data-full="images/8.webp" data-caption="Realizacja w Makowicach o zmierzchu">
+        <img src="images/8.webp" alt="Realizacja w Makowicach o zmierzchu" class="w-full h-full object-cover rounded-xl">
+        <span class="gallery-caption absolute bottom-3 left-3 right-3 text-linen-raised text-xs font-label uppercase">Realizacja w Makowicach</span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TESTIMONIALS ============ -->
+<section id="opinie" class="relative py-20 md:py-28 px-5 md:px-8 bg-graphite overflow-hidden">
+  <div class="truss-field"></div>
+  <div class="grain"></div>
+  <div class="relative max-w-7xl mx-auto">
+    <div class="flex flex-wrap items-end justify-between gap-8 mb-14">
+      <div class="max-w-2xl">
+        <div class="rule-bar mb-5"></div>
+        <h2 class="font-display font-bold uppercase text-4xl md:text-5xl leading-[1.02] tracking-tight text-linen-raised">
+          Co mówią <span class="text-clay-bright">klienci</span>
+        </h2>
+      </div>
+      <div class="stat-pill rounded-2xl px-6 py-4 flex items-center gap-4">
+        <span class="font-display font-bold text-5xl text-linen-raised leading-none">5,0</span>
+        <div>
+          <div class="stars text-lg leading-none mb-1">★★★★★</div>
+          <div class="font-label text-xs text-slate-light uppercase">5 opinii Google</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+      <figure class="dark-card rounded-2xl p-7 reveal flex flex-col">
+        <div class="stars mb-4">★★★★★</div>
+        <blockquote class="text-linen-raised leading-relaxed text-sm flex-1">"To nie jest zwykła firma, to prawdziwa perełka! Ekspert w swoim fachu, pełen pasji i zaangażowania. Zawsze doradzi, nigdy nie naciągnie. Ich praca powinna być wzorem dla innych. Dbałość o każdy detal, porządek zarówno w trakcie, jak i po zakończeniu robót. Mieliśmy problem z kunami i zimnem, ale teraz jest ciepło i przytulnie."</blockquote>
+        <figcaption class="mt-5 font-label text-xs text-slate-light uppercase">Cezary F. · 4 kwietnia 2026</figcaption>
+      </figure>
+      <figure class="dark-card rounded-2xl p-7 reveal flex flex-col">
+        <div class="stars mb-4">★★★★★</div>
+        <blockquote class="text-linen-raised leading-relaxed text-sm flex-1">"W tej firmie nabyłem materiały do pokrycia dachu i muszę powiedzieć, że współpraca była rewelacyjna. Wszystko odbyło się zgodnie z ustaleniami, a dachówki były idealnie gładkie i w nienaruszonym stanie. Efekt końcowy na dachu naprawdę robi wrażenie."</blockquote>
+        <figcaption class="mt-5 font-label text-xs text-slate-light uppercase">Ireneusz M. · 22 marca 2026</figcaption>
+      </figure>
+      <figure class="dark-card rounded-2xl p-7 reveal flex flex-col">
+        <div class="stars mb-4">★★★★★</div>
+        <blockquote class="text-linen-raised leading-relaxed text-sm flex-1">"Zespół naprawdę świetny, który doskonale zna się na tym, co robi. Wszystko zostało zrealizowane zgodnie z wcześniejszymi ustaleniami, bez zbędnych opóźnień. Dach jest solidny, a cały proces przebiegł w bardzo przyjemnej atmosferze."</blockquote>
+        <figcaption class="mt-5 font-label text-xs text-slate-light uppercase">Zuzanna N. · 13 marca 2026</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section id="kontakt" class="py-20 md:py-28 px-5 md:px-8 bg-linen">
+  <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12">
+    <div>
+      <div class="rule-bar mb-5"></div>
+      <h2 class="font-display font-bold uppercase text-4xl md:text-5xl leading-[1.02] tracking-tight mb-6">
+        Umówmy <span class="text-clay">wycenę</span>
+      </h2>
+      <p class="text-ink-soft text-lg leading-relaxed max-w-lg mb-10">
+        Zadzwoń i opowiedz, co planujesz, więźbę, pokrycie czy budowę domu. Ustalimy termin oględzin i powiemy uczciwie, ile będzie kosztować robota.
+      </p>
+
+      <div class="space-y-5">
+        <a href="tel:603532630" class="flex items-center gap-4 surface-card rounded-2xl p-5">
+          <div class="w-12 h-12 rounded-full bg-clay/10 flex items-center justify-center shrink-0">
+            <i data-lucide="phone" class="w-5 h-5 text-clay-deep"></i>
+          </div>
+          <div>
+            <div class="font-label text-xs uppercase text-ink-soft mb-1">Telefon</div>
+            <div class="font-display font-semibold text-2xl tracking-tight">603 532 630</div>
+          </div>
+        </a>
+        <div class="flex items-center gap-4 surface-card rounded-2xl p-5">
+          <div class="w-12 h-12 rounded-full bg-clay/10 flex items-center justify-center shrink-0">
+            <i data-lucide="map-pin" class="w-5 h-5 text-clay-deep"></i>
+          </div>
+          <div>
+            <div class="font-label text-xs uppercase text-ink-soft mb-1">Adres</div>
+            <div class="font-display font-semibold text-xl tracking-tight">Makowice 19, 48-320 Makowice</div>
+          </div>
+        </div>
+        <div class="flex items-center gap-4 surface-card rounded-2xl p-5">
+          <div class="w-12 h-12 rounded-full bg-clay/10 flex items-center justify-center shrink-0">
+            <i data-lucide="clock" class="w-5 h-5 text-clay-deep"></i>
+          </div>
+          <div>
+            <div class="font-label text-xs uppercase text-ink-soft mb-1">Godziny otwarcia</div>
+            <div class="font-display font-semibold text-xl tracking-tight">Pon-sob 7:00-16:00</div>
+            <div class="text-ink-soft text-sm mt-0.5">Niedziela: zamknięte</div>
+          </div>
+        </div>
+        <div class="flex items-center gap-4 surface-card rounded-2xl p-5">
+          <div class="w-12 h-12 rounded-full bg-clay/10 flex items-center justify-center shrink-0">
+            <i data-lucide="map" class="w-5 h-5 text-clay-deep"></i>
+          </div>
+          <div>
+            <div class="font-label text-xs uppercase text-ink-soft mb-1">Obszar działania</div>
+            <div class="font-display font-semibold text-xl tracking-tight">Makowice i okolice, woj. opolskie</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="rounded-2xl overflow-hidden shadow-[0_1px_2px_rgba(33,28,23,0.07),0_10px_22px_-10px_rgba(33,28,23,0.22)] min-h-[420px] border border-black/10">
+      <iframe
+        src="https://www.google.com/maps?q=50.56518,17.38631&output=embed"
+        class="w-full h-full min-h-[420px]"
+        style="border:0;"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        title="Mapa dojazdu do Sylwester Gniewczyński Usługi Ogólnobudowlane, Makowice">
+      </iframe>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="bg-graphite px-5 md:px-8 pt-16 pb-8 border-t border-white/10">
+  <div class="max-w-7xl mx-auto">
+    <div class="grid md:grid-cols-3 gap-10 mb-12">
+      <div>
+        <span class="brand-mark font-display font-bold uppercase text-2xl tracking-tight leading-none block mb-4">
+          Gniew<span class="accent">czyński</span>
+        </span>
+        <p class="text-slate-light text-sm leading-relaxed max-w-xs">Usługi ciesielsko-dekarskie. Więźby, pokrycia dachowe i budowa domów w Makowicach i okolicy.</p>
+      </div>
+      <div class="font-label text-sm">
+        <div class="text-slate-light uppercase text-xs mb-4">Nawigacja</div>
+        <ul class="space-y-2">
+          <li><a href="uslugi.html" class="nav-link">Usługi</a></li>
+          <li><a href="index.html#realizacje" class="nav-link">Realizacje</a></li>
+          <li><a href="index.html#opinie" class="nav-link">Opinie</a></li>
+          <li><a href="index.html#kontakt" class="nav-link">Kontakt</a></li>
+        </ul>
+      </div>
+      <div class="font-label text-sm">
+        <div class="text-slate-light uppercase text-xs mb-4">Kontakt</div>
+        <ul class="space-y-2 text-linen-raised">
+          <li><a href="tel:603532630" class="nav-link">603 532 630</a></li>
+          <li class="text-slate-light">Makowice 19</li>
+          <li class="text-slate-light">48-320 Makowice</li>
+        </ul>
+      </div>
+    </div>
+    <div class="pt-8 border-t border-white/10 flex flex-wrap items-center justify-between gap-4 text-xs font-label text-slate-light">
+      <span>© 2026 Sylwester Gniewczyński Usługi Ogólnobudowlane. Wszelkie prawa zastrzeżone.</span>
+      <span>NIP 7531101269</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ LIGHTBOX ============ -->
+<div id="lightbox" role="dialog" aria-modal="true" aria-label="Podgląd zdjęcia">
+  <button id="lightbox-close" class="absolute top-6 right-6 text-linen-raised hover:text-clay-bright transition-colors" aria-label="Zamknij podgląd">
+    <i data-lucide="x" class="w-8 h-8"></i>
+  </button>
+  <img id="lightbox-img" src="" alt="">
+</div>
+
+<script>
+  lucide.createIcons();
+
+  const header = document.getElementById('site-header');
+  window.addEventListener('scroll', () => {
+    header.classList.toggle('is-scrolled', window.scrollY > 12);
+  });
+
+  const revealEls = document.querySelectorAll('.reveal');
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('is-visible');
+        io.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.15 });
+  revealEls.forEach(el => io.observe(el));
+
+  const lightbox = document.getElementById('lightbox');
+  const lightboxImg = document.getElementById('lightbox-img');
+  document.querySelectorAll('.gallery-item').forEach(item => {
+    item.addEventListener('click', () => {
+      lightboxImg.src = item.dataset.full;
+      lightboxImg.alt = item.dataset.caption || '';
+      lightbox.classList.add('is-open');
+    });
+  });
+  function closeLightbox() {
+    lightbox.classList.remove('is-open');
+    lightboxImg.src = '';
+  }
+  document.getElementById('lightbox-close').addEventListener('click', closeLightbox);
+  lightbox.addEventListener('click', (e) => { if (e.target === lightbox) closeLightbox(); });
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeLightbox(); });
+</script>
+</body>
+</html>
